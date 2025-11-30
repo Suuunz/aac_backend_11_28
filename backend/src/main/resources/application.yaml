@@ -32,4 +32,4 @@ spring:
 # 4. 커스텀 설정 (FastAPI 주소)
 app:
   fastapi:
-    url: http://localhost:8000/predict
+    url: http://localhost:8000/recommend

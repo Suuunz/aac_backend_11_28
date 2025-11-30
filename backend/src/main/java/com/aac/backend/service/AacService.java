@@ -26,7 +26,7 @@ public class AacService {
     private final RestTemplate restTemplate;
 
     // TODO: 로컬 테스트 시 localhost, 실제 배포 시 FastAPI 서버 IP 입력
-    private static final String FASTAPI_URL = "http://localhost:8000/predict";
+    private static final String FASTAPI_URL = "http://localhost:8000/recommend";
 
     /**
      * 1. 초기 요청 처리 (세션 생성 -> FastAPI 호출)
